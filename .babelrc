@@ -1,4 +1,14 @@
 {
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./",
+        }
+      }
+    ]
+  ],
   "env": {
     "development": {
       "presets": ["next/babel", "@zeit/next-typescript/babel"]

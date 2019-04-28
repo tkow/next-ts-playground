@@ -12,7 +12,6 @@ app.prepare()
   createServer((req, res) => {
     const parsedUrl = parse(req.url!, true)
     const { pathname, query } = parsedUrl
-
     if (pathname === '/a') {
       app.render(req, res, '/a', query)
     } else if (pathname === '/b') {

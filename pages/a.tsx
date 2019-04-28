@@ -1,3 +1,7 @@
 import React from 'react'
 
-export default () => <div>a</div>
+const a = {
+  const:"const"
+} as const
+
+export default () => <div>{a.const}</div>
